@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+  It brought up the lines that are changed which made it much easier to identify
+  differences
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+  It allows you to compare different versions of the files
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Because with google docs it automatically saves a lot of different versions
+     that you might not want. With manually saving, you can save at logical
+     checkpoints that you'd want to reference
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because Google Docs saves automatically and doesn't allow you to choose what
+    you save. Therefore it would not know what multiple files to save.
+    Additionally you can save related files together. This is important because
+    critical changes in one file could require a change in another file and you
+    can just save those
+
+How can you use the commands git log and git diff to view the history of files?
+
+      Git log shows you a history of all the commits that have been saved in
+      the history of the files. Git diff allows you to compare two different
+      files by entering git diff followed by two unique commit IDs
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because you know that you can just save a commit with the version of the
+    code before the change and then use git checkout to revert the file to the
+    state in which it was before the change should the change go wrong
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use git and version control throughout all of my projects in this
+    class so it is easier for me to track my progress and make big changes
+    without being too worried about the consequences.
