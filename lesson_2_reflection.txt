@@ -1,0 +1,47 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository you are creating a space in which you can store
+files and their history. You need to do it so that you can store your work on a
+project in different stages.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area is an intermediate area between the working directory and repository
+where you can put files before you commit them to a repository. This is important
+because it allows you to store as many files as you want in one commit
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+You can do so by running git diff --staged to check what the differences are
+between the version in the staging area and the most recent commit. If there
+is more than one logical change, you can reduce this and complete your goal in
+two or more commits
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+Branches could be helpful if two different people were working on the same code
+at the same time. Splitting the code off into branches would help preserve the
+master code and enable creativity for the workers without fear of messing
+up.
+
+How do the diagrams help you visualize the branch structure?
+
+They help visualize by creating a linear history of commits made on different branches,
+much better than
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+The result of the merging is that all of the commits in both of the branches before
+the merge come together into the same branch. We represent it with master encompassing
+both branches because all of the commits from both branches are now part of the master
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+The main benefit of doing the merging manually is that you can choose between the different
+versions of the code that would create a conflict. You need to do this because
+as an intelligent being, you can decide what to do, which a computer cannot do.
